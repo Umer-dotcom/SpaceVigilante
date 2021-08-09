@@ -5829,7 +5829,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 4602584b14f2f20439a7ed33d579a067, type: 3}
     - target: {fileID: 5028443800717788288, guid: 34ed46ead8f5167468623840105e5c60, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level2
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 6353380835494544459, guid: 34ed46ead8f5167468623840105e5c60, type: 3}
       propertyPath: m_Sprite
