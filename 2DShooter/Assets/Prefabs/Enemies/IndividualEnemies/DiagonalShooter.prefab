@@ -45,14 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4641165794769155162, guid: 5089b9cd653abda4ba6013a20e42c774, type: 3}
   projectileHolder: {fileID: 0}
-  animator: {fileID: 0}
   isPlayerControlled: 0
   fireRate: 3
-  projectileDamage: 1
-  teamID: 1
-  projectileSpeed: 5
   projectileSpread: 1
-  playerInput: {fileID: 0}
+  fireEffect: {fileID: 0}
 --- !u!1 &8282131552441171991
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +127,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6604310613814641884, guid: 35293284ff3944d4d8c1f7ca980df347, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8b00ca4e9c897a4e9cc5b23d4cf2922, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -150,7 +146,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8282131552441171991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 809ff1ddd8b6a4f45a7ad1630932ea75, type: 2}
   m_CullingMode: 0
@@ -174,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  scoreValue: 5
   followTarget: {fileID: 0}
   followRange: 30
   guns:
@@ -199,10 +196,10 @@ MonoBehaviour:
   maximumHealth: 2
   currentHealth: 2
   invincibilityTime: 0
+  isAlwaysInvincible: 0
   useLives: 0
   currentLives: 3
   maximumLives: 5
-  isInvincible: 0
   deathEffect: {fileID: 2452382815751308013, guid: 990f3751046a4d840806774f23579fe2, type: 3}
   hitEffect: {fileID: 6229913163069739088, guid: d6029318d740811488fd5dd38a7e1ce1, type: 3}
 --- !u!50 &4327850106528714602
@@ -243,7 +240,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4375, y: 1.09375}
+    oldSize: {x: 2.52, y: 2.4}
     newSize: {x: 1.4375, y: 1.09375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -305,11 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4641165794769155162, guid: 5089b9cd653abda4ba6013a20e42c774, type: 3}
   projectileHolder: {fileID: 0}
-  animator: {fileID: 0}
   isPlayerControlled: 0
   fireRate: 3
-  projectileDamage: 1
-  teamID: 1
-  projectileSpeed: 5
   projectileSpread: 1
-  playerInput: {fileID: 0}
+  fireEffect: {fileID: 0}
